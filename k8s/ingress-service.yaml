@@ -13,6 +13,7 @@ spec:
         - k8s.orbis.pe
       secretName: k8s-multi-com
   rules:
+    - hosts: k8s-multi-com
     - http:
         paths:
           - path: /?(.*)
